@@ -12,6 +12,15 @@ cultureInfo pt-PT
 					description: Margem Bruta
 				measure '# Sales'
 					caption: Qtd Vendas
+			table Customer
+				caption: Cliente
+			table Store
+				caption: Loja
+				column Store
+					caption: Loja
+					description: Nome de Loja
+			table About
+				caption: Sobre
 			table Product
 				caption: Produto
 				column Product
@@ -31,15 +40,6 @@ cultureInfo pt-PT
 					caption: Preço
 				column Subcategory
 					caption: Sub-Categoria
-			table Customer
-				caption: Cliente
-			table Store
-				caption: Loja
-				column Store
-					caption: Loja
-					description: Nome de Loja
-			table About
-				caption: Sobre
 
 	annotation 'New Annotation'
 

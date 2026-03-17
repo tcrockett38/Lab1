@@ -17,10 +17,10 @@ annotation PBI_ProTooling = ["DevMode","CalcGroup","TMDLView_Desktop","DaxQueryV
 
 ref table Calendar
 ref table Sales
-ref table Product
 ref table Customer
 ref table Store
 ref table About
+ref table Product
 
 ref role 'Store - Canada'
 ref role 'Store - United States'
